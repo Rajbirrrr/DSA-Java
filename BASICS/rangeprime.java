@@ -15,7 +15,7 @@ class rangeprime {
             }
         }
 
-        System.out.println("The prime numbers are:");
+        System.out.println("The prime numbers are the following:");
         for (i = 2; i <= n; i++) {
             if (i == 2) {
                 System.out.println(i + " ");
