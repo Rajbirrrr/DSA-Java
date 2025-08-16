@@ -16,7 +16,7 @@ class linear{
     public static void main(String args[]){
         int arr[]= {2,3,4,5,6,7,8};
         int key= 16;
-        findvalue(arr,key);
+    
         if(findvalue(arr,key)==-1){
             System.out.println("Element not found");
         }else{
