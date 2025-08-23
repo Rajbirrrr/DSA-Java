@@ -13,7 +13,7 @@ class repeatingandmissing{
             freq[arr[i]]++;
         }
 
-        for( i=0; i<=n ; i++){
+        for( i=1; i<=n ; i++){
             if(freq[i]==0){
                 missing= i;
             }
