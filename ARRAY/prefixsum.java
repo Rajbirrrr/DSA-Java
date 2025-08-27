@@ -15,10 +15,10 @@ class prefixsum{
             prefix[i]= prefix[i-1]+arr[i];
         }
 
-        for(i=0; i<arr.length ; i++){
+        for(i=0; i<prefix.length ; i++){
 
             int start= i;
-            for(j=i ; j<arr.length ; j++){
+            for(j=i ; j<prefix.length ; j++){
                 int end= j;
                 sum = start==0 ? prefix[end] : prefix[end]-prefix[start-1];
                 if(max<sum){
