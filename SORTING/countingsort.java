@@ -17,6 +17,7 @@ class countingsort{
 
         //put values in original array
         int j=0;
+        
         for(int i=1 ; i<freq.length; i++){
             while(freq[i]>0){
                 arr[j] = i;
@@ -26,14 +27,20 @@ class countingsort{
 
             }
         }
+        
     }
-    
     
     public static void main(String args[]){
         int arr[] = {1,4,1,3,2,3,2,4,3,7};
         count(arr);
+        System.out.print("{");
         for(int i=0 ; i<arr.length ; i++){
-            System.out.print(arr[i] + " ");
+            System.out.print(arr[i]);
+
+            if(i<arr.length-1){
+                System.out.print(",");
+            }
         }
+        System.out.print("}");
     }
 }
