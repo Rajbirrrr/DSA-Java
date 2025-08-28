@@ -37,7 +37,7 @@ class subarraysum{
         }
         System.out.print("\n The maximum sum pair is: ");
         for(int i= lstart; i<=lend; i++){
-            System.out.print(arr[i]);
+            System.out.print(arr[i] + " ");
             
             
         }
