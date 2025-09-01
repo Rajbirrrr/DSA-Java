@@ -15,7 +15,7 @@ class spiralmatrix{
 
             //top
             for(int j=startcol; j<= endcol; j++){
-               res[startrow][j] = num++; 
+               res[startrow][j] = num++;
             }
 
             //right
