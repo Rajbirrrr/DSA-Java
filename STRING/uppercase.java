@@ -7,7 +7,7 @@ class uppercase{
         sb.append(ch);
 
         for(int i=1 ; i<str.length(); i++){
-            if(str.charAt(i) == '\0' && i< (str.length()-1)){
+            if(str.charAt(i) == ' ' && i< (str.length()-1)){
                 sb.append(str.charAt(i));
                 i++;
                 sb.append(Character.toUpperCase(str.charAt(i)));
@@ -19,7 +19,7 @@ class uppercase{
    }
    
     public static void main(String args[]){
-        String str = "hi i am raj";
+        String str = "hi i am raj , i am a coder";
         System.out.println(upper(str));
     }
 }
