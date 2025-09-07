@@ -29,7 +29,7 @@ class validpalindrome {
 
 
      //apprach-2:-
-    public boolean leetcode(String s) {
+    public static boolean leetcode(String s) {
         StringBuilder sb = new StringBuilder("");
         StringBuilder sb1 = new StringBuilder("");
         
