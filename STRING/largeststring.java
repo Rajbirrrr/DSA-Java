@@ -11,7 +11,7 @@ class largeststring{
     }
     
     public static void main(String args[]){
-        String arr[] = {"Apple" , "Banana" , "Mango" , "Dragonfruit"};
+        String arr[] = {"Apple" , "Banana" , "Mango" , "Dragonfruit" , "Guava"};
         lexicographic(arr);
     }
 }
