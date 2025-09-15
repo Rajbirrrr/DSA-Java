@@ -5,9 +5,10 @@ public class dtob {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a decimal number: ");
-        int decimal = sc.nextInt();
+        Integer decimal = sc.nextInt();
 
         String binary = Integer.toBinaryString(decimal); // decimal → binary
+       
         System.out.println("Binary value: " + binary);
 
         sc.close();
