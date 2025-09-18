@@ -37,7 +37,7 @@ class deepcopy{
 
         s1.marks[0] = 34;
 
-        System.out.println(s2.marks[0]);//value reamins unchnaged
+        System.out.println(s2.marks[0]);//value reamins unchnaged(deep copy- copy of values not reference)
 
     }
 }
