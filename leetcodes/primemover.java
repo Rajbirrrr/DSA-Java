@@ -13,7 +13,7 @@ class primemover{
             }
         }
 
-        System.out.println("The "+ n +"th prime number is:" + " " + prime_at_pos);
+        System.out.println("The "+ n +"th prime number is: " + prime_at_pos);
     }
 
     public static boolean isprime(int num){
